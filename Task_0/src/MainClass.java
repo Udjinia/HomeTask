@@ -16,4 +16,16 @@ public class MainClass {
     {
         return 20;
     }
+
+
+    //Test_3
+    public String getClassString()
+    {
+        return this.class_string();
+    }
+
+    private String  class_string ()
+    {
+        return "Hello, world";
+    }
 }

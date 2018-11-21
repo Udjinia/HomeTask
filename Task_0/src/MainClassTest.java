@@ -17,4 +17,11 @@ public class MainClassTest extends MainClass
         Assert.assertTrue("Value ("+a+") is less than 45",a > 45 );
     }
 
+    @Test
+    public void testGetClassString()
+    {
+        String a=getClassString();
+        Assert.assertTrue("Text is not contain Hello word",a.contains("hello") || a.contains("Hello"));
+    }
+
 }
