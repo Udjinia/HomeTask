@@ -20,23 +20,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="5" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="769" />
+          <entry key="java" value="897" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="769" />
+          <entry key="JAVA" value="897" />
         </counts>
       </usages-collector>
     </session>
@@ -46,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homeTaskEx2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="528">
               <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="98" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homeTaskEx3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="66" column="10" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="66" selection-end-column="10" />
+            <state relative-caret-position="313">
+              <caret line="57" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setUp#0;class#homeTaskEx3#0" />
@@ -75,19 +75,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/homeTaskEx5.java">
+        <entry file="file://$PROJECT_DIR$/src/homeTaskEx6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+            <state relative-caret-position="84">
+              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#homeTaskEx5#0" />
-                <element signature="method#waitForElementPresent#0;class#homeTaskEx5#0" />
-                <element signature="method#waitForElementNotPresent#0;class#homeTaskEx5#0" />
-                <element signature="method#waitForElementAndClick#0;class#homeTaskEx5#0" />
-                <element signature="method#waitForElementAndSendKeys#0;class#homeTaskEx5#0" />
-                <element signature="method#waitForElementAndClear#0;class#homeTaskEx5#0" />
-                <element signature="method#swipeUp#0;class#homeTaskEx5#0" />
+                <element signature="method#setUp#0;class#homeTaskEx6#0" />
+                <element signature="method#waitForElementPresent#0;class#homeTaskEx6#0" />
+                <element signature="method#waitForElementNotPresent#0;class#homeTaskEx6#0" />
+                <element signature="method#waitForElementAndClick#0;class#homeTaskEx6#0" />
+                <element signature="method#waitForElementAndSendKeys#0;class#homeTaskEx6#0" />
+                <element signature="method#waitForElementAndClear#0;class#homeTaskEx6#0" />
+                <element signature="method#getAmountOfElements#0;class#homeTaskEx6#0" />
+                <element signature="method#assertElementNotPresent#0;class#homeTaskEx6#0" />
+                <element signature="method#assertElementNotPresent#1;class#homeTaskEx6#0" />
               </folding>
             </state>
           </provider>
@@ -112,10 +114,11 @@
         <option value="$PROJECT_DIR$/src/homeTaskEx3.java" />
         <option value="$PROJECT_DIR$/src/homeTaskEx4.java" />
         <option value="$PROJECT_DIR$/src/homeTaskEx5.java" />
+        <option value="$PROJECT_DIR$/src/homeTaskEx6.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -148,7 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544310397925" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544312277344" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/selenium-server-standalone-3.13.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -166,22 +169,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.homeTaskEx5.testSaveTwoArticleInFolder">
+  <component name="RunManager" selected="JUnit.homeTaskEx6.testAssertElementPresent">
     <configuration name="homeTaskEx2.testVerifyDefaultSearchValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeTasks" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="homeTaskEx2" />
       <option name="METHOD_NAME" value="testVerifyDefaultSearchValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homeTaskEx2.testVerifyDefaultsSearchValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeTasks" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="homeTaskEx2" />
-      <option name="METHOD_NAME" value="testVerifyDefaultsSearchValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,20 +210,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="homeTaskEx6.testAssertElementPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeTasks" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="homeTaskEx6" />
+      <option name="METHOD_NAME" value="testAssertElementPresent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.homeTaskEx2.testVerifyDefaultsSearchValue" />
       <item itemvalue="JUnit.homeTaskEx2.testVerifyDefaultSearchValue" />
       <item itemvalue="JUnit.homeTaskEx3.testCancelSearch" />
       <item itemvalue="JUnit.homeTaskEx4.testVerifySearchRequestInSearchResult" />
       <item itemvalue="JUnit.homeTaskEx5.testSaveTwoArticleInFolder" />
+      <item itemvalue="JUnit.homeTaskEx6.testAssertElementPresent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.homeTaskEx6.testAssertElementPresent" />
         <item itemvalue="JUnit.homeTaskEx5.testSaveTwoArticleInFolder" />
         <item itemvalue="JUnit.homeTaskEx4.testVerifySearchRequestInSearchResult" />
         <item itemvalue="JUnit.homeTaskEx3.testCancelSearch" />
         <item itemvalue="JUnit.homeTaskEx2.testVerifyDefaultSearchValue" />
-        <item itemvalue="JUnit.homeTaskEx2.testVerifyDefaultsSearchValue" />
       </list>
     </recent_temporary>
   </component>
@@ -248,9 +251,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="homeTaskEx2_testVerifyDefaultSearchValue - 2018.12.09 at 00h 55m 21s.xml">
-      <configuration name="homeTaskEx2.testVerifyDefaultSearchValue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="homeTaskEx2_testVerifyDefaultSearchValue - 2018.12.09 at 00h 55m 42s.xml">
       <configuration name="homeTaskEx2.testVerifyDefaultSearchValue" configurationId="JUnit" />
     </history-entry>
@@ -278,6 +278,9 @@
     <history-entry file="homeTaskEx5_testSaveTwoArticleInFolder - 2018.12.09 at 02h 05m 35s.xml">
       <configuration name="homeTaskEx5.testSaveTwoArticleInFolder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="homeTaskEx6_testAssertElementPresent - 2018.12.09 at 02h 31m 21s.xml">
+      <configuration name="homeTaskEx6.testAssertElementPresent" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -288,7 +291,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16868381" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16868381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
@@ -296,7 +299,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32850242" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23349437" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18035427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15297906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,10 +384,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeTaskEx5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#homeTaskEx5#0" />
+            <element signature="method#waitForElementPresent#0;class#homeTaskEx5#0" />
+            <element signature="method#waitForElementNotPresent#0;class#homeTaskEx5#0" />
+            <element signature="method#waitForElementAndClick#0;class#homeTaskEx5#0" />
+            <element signature="method#waitForElementAndSendKeys#0;class#homeTaskEx5#0" />
+            <element signature="method#waitForElementAndClear#0;class#homeTaskEx5#0" />
+            <element signature="method#swipeUp#0;class#homeTaskEx5#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homeTaskEx2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#homeTaskEx2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/homeTaskEx3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="66" column="10" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="66" selection-end-column="10" />
+        <state relative-caret-position="313">
+          <caret line="57" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#homeTaskEx3#0" />
@@ -397,30 +428,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTaskEx2.java">
+    <entry file="file://$PROJECT_DIR$/src/homeTaskEx6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="98" />
+        <state relative-caret-position="84">
+          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#homeTaskEx2#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTaskEx5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#homeTaskEx5#0" />
-            <element signature="method#waitForElementPresent#0;class#homeTaskEx5#0" />
-            <element signature="method#waitForElementNotPresent#0;class#homeTaskEx5#0" />
-            <element signature="method#waitForElementAndClick#0;class#homeTaskEx5#0" />
-            <element signature="method#waitForElementAndSendKeys#0;class#homeTaskEx5#0" />
-            <element signature="method#waitForElementAndClear#0;class#homeTaskEx5#0" />
-            <element signature="method#swipeUp#0;class#homeTaskEx5#0" />
+            <element signature="method#setUp#0;class#homeTaskEx6#0" />
+            <element signature="method#waitForElementPresent#0;class#homeTaskEx6#0" />
+            <element signature="method#waitForElementNotPresent#0;class#homeTaskEx6#0" />
+            <element signature="method#waitForElementAndClick#0;class#homeTaskEx6#0" />
+            <element signature="method#waitForElementAndSendKeys#0;class#homeTaskEx6#0" />
+            <element signature="method#waitForElementAndClear#0;class#homeTaskEx6#0" />
+            <element signature="method#getAmountOfElements#0;class#homeTaskEx6#0" />
+            <element signature="method#assertElementNotPresent#0;class#homeTaskEx6#0" />
+            <element signature="method#assertElementNotPresent#1;class#homeTaskEx6#0" />
           </folding>
         </state>
       </provider>
