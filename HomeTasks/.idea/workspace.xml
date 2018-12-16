@@ -4,8 +4,28 @@
     <list default="true" id="e2d552bc-1cba-4041-80b0-693f67aa30d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeTasks/homeTaskEx6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeTasks/homeTaskEx6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeTaskEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeTaskEx3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeTaskEx6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeTaskEx6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTasks/lib/CoreTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeTasks/lib/CoreTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTasks/lib/ui/ArticlePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeTasks/lib/ui/ArticlePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTasks/lib/ui/MainPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeTasks/lib/ui/MainPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTasks/lib/ui/MyListPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeTasks/lib/ui/MyListPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTasks/lib/ui/NavigationUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeTasks/lib/ui/NavigationUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTasks/lib/ui/SearchPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeTasks/lib/ui/SearchPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTasks/tests/newTaskEx3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTasks/tests/newTaskEx5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeTasks/tests/newTaskEx6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeTaskEx2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/homeTaskEx2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeTaskEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/homeTaskEx3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeTaskEx5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/homeTaskEx5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeTaskEx6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/homeTaskEx6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/CoreTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/CoreTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/MyListPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/MyListPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/NavigationUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/NavigationUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/newTaskEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/New_Task/newTaskEx3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/newTaskEx5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/New_Task/newTaskEx5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/newTaskEx6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/New_Task/newTaskEx6.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,88 +34,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1373540937">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="6" />
-          <entry key="java" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1706" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1706" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/newTaskEx6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/homeTaskEx6.java">
+        <entry file="file://$PROJECT_DIR$/src/Tests/New_Task/newTaskEx3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="132" column="1" lean-forward="true" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#homeTaskEx6#0" />
-                <element signature="e#1264#1265#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-                <element signature="method#waitForElementPresent#0;class#homeTaskEx6#0" />
-                <element signature="method#waitForElementNotPresent#0;class#homeTaskEx6#0" />
-                <element signature="method#waitForElementAndClick#0;class#homeTaskEx6#0" />
-                <element signature="method#waitForElementAndSendKeys#0;class#homeTaskEx6#0" />
-                <element signature="method#waitForElementAndClear#0;class#homeTaskEx6#0" />
-                <element signature="method#getAmountOfElements#0;class#homeTaskEx6#0" />
-                <element signature="method#assertElementNotPresent#0;class#homeTaskEx6#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homeTaskEx4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#homeTaskEx4#0" />
-                <element signature="method#waitForElementPresent#0;class#homeTaskEx4#0" />
-                <element signature="method#waitForElementAndClick#0;class#homeTaskEx4#0" />
-                <element signature="method#waitForElementAndSendKeys#0;class#homeTaskEx4#0" />
-                <element signature="method#waitForElementAndClear#0;class#homeTaskEx4#0" />
               </folding>
             </state>
           </provider>
@@ -111,6 +58,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>By.xpath(</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -124,28 +74,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/homeTaskEx2.java" />
         <option value="$PROJECT_DIR$/src/homeTaskEx4.java" />
         <option value="$PROJECT_DIR$/src/homeTaskEx5.java" />
-        <option value="$PROJECT_DIR$/src/lib/CoreTestCase.java" />
-        <option value="$PROJECT_DIR$/src/lib/ui/NavigationUI.java" />
         <option value="$PROJECT_DIR$/src/homeTaskEx3.java" />
         <option value="$PROJECT_DIR$/src/tests/newTaskEx3.java" />
-        <option value="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" />
         <option value="$PROJECT_DIR$/src/tests/newTaskEx5.java" />
-        <option value="$PROJECT_DIR$/src/lib/ui/MyListPageObject.java" />
-        <option value="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" />
         <option value="$PROJECT_DIR$/src/tests/newTaskEx6.java" />
-        <option value="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" />
         <option value="$PROJECT_DIR$/src/homeTaskEx6.java" />
+        <option value="$PROJECT_DIR$/src/lib/CoreTestCase.java" />
+        <option value="$PROJECT_DIR$/src/homeTaskEx2.java" />
+        <option value="$PROJECT_DIR$/src/lib/IOSTestCase.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" />
+        <option value="$PROJECT_DIR$/src/IOS/GetStartedTest.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/MyListPageObject.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/NavigationUI.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" />
+        <option value="$PROJECT_DIR$/src/lib/ui/WelkomPageObject.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
-    <option name="y" value="-320" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="9" />
+    <option name="y" value="37" />
+    <option name="width" value="1185" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -155,8 +108,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,20 +131,25 @@
               <item name="HomeTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeTasks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeTasks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="IOS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="HomeTasks" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="New_Task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -200,7 +158,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544565279577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544991651346" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -218,23 +176,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.newTaskEx6.testAssertElementPresent">
-    <configuration name="homeTaskEx2.testVerifyDefaultSearchValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.newTaskEx3.testCancelSearch">
+    <configuration name="GetStartedTest.testPassThroughWelcom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeTasks" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="homeTaskEx2" />
-      <option name="METHOD_NAME" value="testVerifyDefaultSearchValue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.IOS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.IOS" />
+      <option name="MAIN_CLASS_NAME" value="Tests.IOS.GetStartedTest" />
+      <option name="METHOD_NAME" value="testPassThroughWelcom" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PLATFORM" value="android" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeTaskEx3.testCancelSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeTasks" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="homeTaskEx3" />
-      <option name="METHOD_NAME" value="testCancelSearch" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PLATFORM" value="android" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,64 +212,26 @@
       <module name="HomeTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="Tests.New_Task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.newTaskEx3" />
+      <option name="PACKAGE_NAME" value="Tests.New_Task" />
+      <option name="MAIN_CLASS_NAME" value="Tests.New_Task.newTaskEx3" />
       <option name="METHOD_NAME" value="testCancelSearch" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PLATFORM" value="android" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="newTaskEx5.testSaveTwoArticleInFolder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.newTaskEx5" />
-      <option name="METHOD_NAME" value="testSaveTwoArticleInFolder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="newTaskEx6.testAssertElementPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.newTaskEx6" />
-      <option name="METHOD_NAME" value="testAssertElementPresent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.homeTaskEx2.testVerifyDefaultSearchValue" />
-      <item itemvalue="JUnit.homeTaskEx3.testCancelSearch" />
-      <item itemvalue="JUnit.newTaskEx3.testCancelSearch" />
-      <item itemvalue="JUnit.newTaskEx5.testSaveTwoArticleInFolder" />
-      <item itemvalue="JUnit.newTaskEx6.testAssertElementPresent" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.newTaskEx6.testAssertElementPresent" />
-        <item itemvalue="JUnit.newTaskEx5.testSaveTwoArticleInFolder" />
         <item itemvalue="JUnit.newTaskEx3.testCancelSearch" />
-        <item itemvalue="JUnit.homeTaskEx3.testCancelSearch" />
-        <item itemvalue="JUnit.homeTaskEx2.testVerifyDefaultSearchValue" />
+        <item itemvalue="JUnit.GetStartedTest.testPassThroughWelcom" />
       </list>
     </recent_temporary>
   </component>
@@ -318,15 +249,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="homeTaskEx5_testSaveTwoArticleInFolder - 2018.12.09 at 02h 05m 35s.xml">
-      <configuration name="homeTaskEx5.testSaveTwoArticleInFolder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="homeTaskEx6_testAssertElementPresent - 2018.12.09 at 02h 31m 21s.xml">
-      <configuration name="homeTaskEx6.testAssertElementPresent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="homeTaskEx2_testVerifyDefaultSearchValue - 2018.12.09 at 20h 22m 48s.xml">
-      <configuration name="homeTaskEx2.testVerifyDefaultSearchValue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="homeTaskEx3_testCancelSearch - 2018.12.11 at 23h 12m 16s.xml">
       <configuration name="homeTaskEx3.testCancelSearch" configurationId="JUnit" />
     </history-entry>
@@ -348,12 +270,21 @@
     <history-entry file="newTaskEx6_testAssertElementPresent - 2018.12.12 at 00h 41m 06s.xml">
       <configuration name="newTaskEx6.testAssertElementPresent" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GetStartedTest_testPassThroughWelcom - 2018.12.16 at 23h 14m 02s.xml">
+      <configuration name="GetStartedTest.testPassThroughWelcom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetStartedTest_testPassThroughWelcom - 2018.12.16 at 23h 16m 41s.xml">
+      <configuration name="GetStartedTest.testPassThroughWelcom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="newTaskEx3_testCancelSearch - 2018.12.16 at 23h 19m 07s.xml">
+      <configuration name="newTaskEx3.testCancelSearch" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-320" width="1936" height="1066" extended-state="6" />
+    <frame x="9" y="37" width="1185" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11140725" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20384952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,7 +293,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20171674" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18424103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22258064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -370,7 +301,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32792583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,22 +310,10 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homeTaskEx2.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="search_result_size" />
@@ -427,45 +346,7 @@
     <entry file="file://$PROJECT_DIR$/out/production/HomeTasks/homeTaskEx5.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/CoreTestCase.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTaskEx2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/NavigationUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/CoreTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/CoreTestCase.java" />
     <entry file="jar://$PROJECT_DIR$/libs/selenium-server-standalone-3.13.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -483,25 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTaskEx3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/newTaskEx3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -516,64 +378,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/SearchPageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/homeTaskEx4.java" />
+    <entry file="file://$PROJECT_DIR$/src/Tests/New_Task/newTaskEx5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="327">
+          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#gerResultSearchElement#0;class#SearchPageObject#0" />
-            <element signature="method#waitForCancelButtonToAppear#0;class#SearchPageObject#0" />
-            <element signature="method#waitForCancelButtonToDisappear#0;class#SearchPageObject#0" />
-            <element signature="method#clickCancelButton#0;class#SearchPageObject#0" />
-            <element signature="method#clickByArticleWithSubstring#0;class#SearchPageObject#0" />
-            <element signature="method#GetAmountOfFoundArticle#0;class#SearchPageObject#0" />
-            <element signature="method#waitForEmptyResultLabel#0;class#SearchPageObject#0" />
-            <element signature="method#assertThereIsNoResultOfSearch#0;class#SearchPageObject#0" />
-            <element signature="method#waitDefaulSearchText#0;class#SearchPageObject#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/MainPageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/Tests/New_Task/newTaskEx6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="165">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#waitForElementAndSendKeys#0;class#MainPageObject#0" />
-            <element signature="method#waitForElementAndClear#0;class#MainPageObject#0" />
-            <element signature="method#swipeUp#0;class#MainPageObject#0" />
-            <element signature="method#swipUpToFindElement#0;class#MainPageObject#0" />
-            <element signature="method#swipElementToLeft#0;class#MainPageObject#0" />
-            <element signature="method#getAmountOfElements#0;class#MainPageObject#0" />
-            <element signature="method#assertElementNotPresent#0;class#MainPageObject#0" />
-            <element signature="method#waitForElementAndGetAttribute#0;class#MainPageObject#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/MyListPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#gerFolderNamer#0;class#ArticlePageObject#0" />
-            <element signature="method#waitForTitleElement#0;class#ArticlePageObject#0" />
-            <element signature="method#getArticleTitle#0;class#ArticlePageObject#0" />
-            <element signature="method#swipeToFooter#0;class#ArticlePageObject#0" />
-            <element signature="method#addFirstArticleToMyList#0;class#ArticlePageObject#0" />
-            <element signature="method#addFirstArticleToMyList#1;class#ArticlePageObject#0" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTaskEx5.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/IOSTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/IOS/GetStartedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/MainPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#swipeUp#0;class#MainPageObject#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/WelkomPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="13" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/SearchPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#gerResultSearchElement#0;class#SearchPageObject#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/NavigationUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/CoreTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/homeTaskEx3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/homeTaskEx5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#homeTaskEx5#0" />
             <element signature="method#waitForElementPresent#0;class#homeTaskEx5#0" />
             <element signature="method#waitForElementNotPresent#0;class#homeTaskEx5#0" />
@@ -585,61 +521,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/MyListPageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/Tests/homeTaskEx6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="46" column="67" lean-forward="true" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+        <state relative-caret-position="65">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#openFolderByName#0;class#MyListPageObject#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/newTaskEx5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/newTaskEx6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTaskEx4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#homeTaskEx4#0" />
-            <element signature="method#waitForElementPresent#0;class#homeTaskEx4#0" />
-            <element signature="method#waitForElementAndClick#0;class#homeTaskEx4#0" />
-            <element signature="method#waitForElementAndSendKeys#0;class#homeTaskEx4#0" />
-            <element signature="method#waitForElementAndClear#0;class#homeTaskEx4#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homeTaskEx6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="132" column="1" lean-forward="true" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#homeTaskEx6#0" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="method#testAssertElementPresent#0;class#homeTaskEx6#0" />
             <element signature="method#waitForElementPresent#0;class#homeTaskEx6#0" />
             <element signature="method#waitForElementNotPresent#0;class#homeTaskEx6#0" />
             <element signature="method#waitForElementAndClick#0;class#homeTaskEx6#0" />
@@ -647,6 +535,26 @@
             <element signature="method#waitForElementAndClear#0;class#homeTaskEx6#0" />
             <element signature="method#getAmountOfElements#0;class#homeTaskEx6#0" />
             <element signature="method#assertElementNotPresent#0;class#homeTaskEx6#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/homeTaskEx2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/New_Task/newTaskEx3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

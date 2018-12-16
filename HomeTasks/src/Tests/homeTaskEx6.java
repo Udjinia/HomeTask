@@ -1,7 +1,8 @@
+package Tests;
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -11,10 +12,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.URL;
+import java.util.List;
 
-public class homeTaskEx2 {
+public class homeTaskEx6 {
 
-      private AppiumDriver driver;
+
+    private AppiumDriver driver;
 
     @Before
     public void setUp() throws Exception
@@ -39,7 +42,7 @@ public class homeTaskEx2 {
     }
 
     @Test
-    public void testVerifyDefaultSearchValue()
+    public void testAssertElementPresent()
     {
         waitForElementAndClick(
                 By.id("org.wikipedia:id/search_container"),
@@ -47,19 +50,25 @@ public class homeTaskEx2 {
                 5
         );
 
-        WebElement default_value= waitForElementPresent(
+        waitForElementAndSendKeys(
                 By.xpath("//*[contains(@text,'Search…')]"),
+                "Java",
                 "Cannot find search input",
                 5
         );
 
-        String search_value_defaults=default_value.getAttribute("text");
-
-        Assert.assertEquals(
-                "Default value is not presented",
-                "Search…",
-                search_value_defaults
+        waitForElementAndClick(
+                By.xpath("//*[@resource-id ='org.wikipedia:id/page_list_item_container']//*[@text='Object-oriented programming language']"),
+                "Cannot find 'Object-oriented programming language' topic searching by 'Object-oriented programming language'",
+                15
         );
+
+        assertElementPresent(
+                By.id("org.wikipedia:id/view_page_title_text"),
+                "Cannot find article title"
+        );
+
+
     }
 
     private WebElement waitForElementPresent (By by, String error_message, long timeoutInSecond )
@@ -97,6 +106,30 @@ public class homeTaskEx2 {
         return element;
     }
 
+    private int getAmountOfElements(By by)
+    {
+        List elements=driver.findElements(by);
+        return elements.size();
+    }
 
+    private void assertElementNotPresent(By by,String error_message)
+    {
+        int amount_of_elements=getAmountOfElements(by);
+        if (amount_of_elements > 0){
+            String default_message="An element '"+by.toString()+"' supposed to be not present";
+            throw new AssertionError(default_message+" "+error_message);
+        }
+
+    }
+
+    private void assertElementPresent(By by,String error_message)
+    {
+        int amount_of_elements=getAmountOfElements(by);
+        if (amount_of_elements == 0){
+            String default_message="An element '"+by.toString()+"' is absent on the page.";
+            throw new AssertionError(default_message+" "+error_message);
+        }
+
+    }
 
 }

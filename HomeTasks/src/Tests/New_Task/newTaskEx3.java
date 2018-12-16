@@ -1,4 +1,4 @@
-package tests;
+package Tests.New_Task;
 
 import lib.CoreTestCase;
 import lib.ui.SearchPageObject;
