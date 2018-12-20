@@ -1,5 +1,8 @@
 package Tests.New_Task;
 import lib.CoreTestCase;
+import lib.Factories.ArticlePageObjectFactory;
+import lib.Factories.NavigationUIFactory;
+import lib.Factories.SearchPageObjectFactory;
 import lib.ui.ArticlePageObject;
 import lib.ui.MyListPageObject;
 import lib.ui.NavigationUI;
@@ -13,9 +16,9 @@ public class newTaskEx5 extends CoreTestCase
     @Test
     public void testSaveTwoArticleInFolder()
     {
-        SearchPageObject SearchPageObject = new SearchPageObject(driver);
-        ArticlePageObject ArticlePageObject = new ArticlePageObject(driver);
-        NavigationUI NavigationUI = new NavigationUI(driver);
+        SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
+        ArticlePageObject ArticlePageObject = ArticlePageObjectFactory.get(driver);
+        NavigationUI NavigationUI = NavigationUIFactory.get(driver);
         MyListPageObject MyListPageObject = new MyListPageObject(driver);
 
 //---Save first article
