@@ -6,7 +6,8 @@ import org.openqa.selenium.By;
 public class NavigationUI extends MainPageObject
 {
     protected static String
-            MY_LIST_LINK;
+            MY_LIST_LINK,
+            RETURN_TO_EXPLORE;
 
 
     public NavigationUI(AppiumDriver driver)
@@ -18,4 +19,9 @@ public class NavigationUI extends MainPageObject
     {
         this.waitForElementAndClick(MY_LIST_LINK,"'My lists' item  is not found",15);
     }
+
+    public  void clickTabToGoHomeButton()
+    {
+        this.waitForElementAndClick(RETURN_TO_EXPLORE,"Cannot find and click the 'Return to Explore' button ",10);
+    };
 }

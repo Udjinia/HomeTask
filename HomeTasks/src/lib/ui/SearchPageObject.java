@@ -11,7 +11,8 @@ abstract public class SearchPageObject extends MainPageObject
             SEARCH_RESULT_BY_SUBSTRING_TPL,
             SEARCH_RESULT_ELEMENT,
             SEARCH_EMPTY_RESULT,
-            SEARCH_DEFAULT_START_TEXT;
+            SEARCH_DEFAULT_START_TEXT,
+            SEARCH_CLEAR_BUTTON;
 
     public SearchPageObject (AppiumDriver driver)
     {
@@ -93,4 +94,9 @@ abstract public class SearchPageObject extends MainPageObject
     {
         waitForElementPresent(SEARCH_DEFAULT_START_TEXT,"Default text for starting search is not presented",15);
     }
+
+    public  void clickClearButton()
+    {
+        this.waitForElementAndClick(SEARCH_CLEAR_BUTTON,"Cannot find and click Clear button in search field",15);
+    };
 }

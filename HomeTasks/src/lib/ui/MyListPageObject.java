@@ -38,23 +38,23 @@ public class MyListPageObject extends MainPageObject
         String article_xpath=gerSavedArticleXpathByTitle(article_title);
 
         this.waitForArticleToAppearByTitle(article_title);
-        this.waitForElementAndClick(article_xpath,article_title+" article is not presented in the list of saved articles",15);
+        this.waitForElementAndClick(article_xpath,"'"+article_title+"' article is not presented in the list of saved articles",15);
 
     }
 
     public void waitForArticleToAppearByTitle(String article_title)
     {
-        String article_xpath=gerFolderXpathByName(article_title);
+        String article_xpath=gerSavedArticleXpathByTitle(article_title);
 
-        this.waitForElementPresent(article_xpath,"Cannot find saved article by title "+article_title,5);
+        this.waitForElementPresent(article_xpath,"Cannot find saved article by title - "+article_title,5);
     }
 
 
     public void waitForArticleToDisappearByTitle(String article_title)
     {
-        String article_xpath=gerFolderXpathByName(article_title);
+        String article_xpath=gerSavedArticleXpathByTitle(article_title);
 
-        this.waitForElementNotPresent(article_xpath,"Saved article still present with title "+article_title,5);
+        this.waitForElementNotPresent(article_xpath,"Saved article still present with title - "+article_title,5);
     }
 
     public void swipeByArticleToDelete(String article_title)
