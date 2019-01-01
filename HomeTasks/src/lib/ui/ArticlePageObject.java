@@ -39,8 +39,9 @@ abstract public class ArticlePageObject extends MainPageObject {
         return this.waitForElementPresent(ARTICLE_TITLE,"Cannot find article title",15);
     }
 
-    public WebElement waitForArticleTitleElement(String article_title) {
-        if (Platform.getInstance().isAndroid()) {
+    public WebElement waitForArticleTitleElement(String article_title)
+    {
+        if ((Platform.getInstance().isAndroid())|| Platform.getInstance().isMW()){
             return this.waitForElementPresent(ARTICLE_TITLE, "Cannot find article title", 15);
         } else {
             String article_name = getArticleName(article_title);
@@ -92,7 +93,7 @@ abstract public class ArticlePageObject extends MainPageObject {
             this.removeArticleFromSavedIfItAdded();
         }
 
-        this.waitForElementAndClick(OPTIONS_ADD_TO_MY_LIST_BUTTON,"Cannot add article to reading list",10);
+        this.waitForElementAndClick(OPTIONS_ADD_TO_MY_LIST_BUTTON,"Cannot add first article to reading list",10);
 
         if (Platform.getInstance().isIOS()) {
             this.waitForElementAndClick(CLOSE_SYNC_POP_UP_BUTTON, "Cannot close sync pop up", 10);
@@ -102,7 +103,10 @@ abstract public class ArticlePageObject extends MainPageObject {
 
     public void addNotFirstArticleToMySaved()
     {
-        this.waitForElementAndClick(OPTIONS_ADD_TO_MY_LIST_BUTTON, "Cannot add article to reading list", 10);
+        if (Platform.getInstance().isMW()){
+            this.removeArticleFromSavedIfItAdded();
+        }
+        this.waitForElementAndClick(OPTIONS_ADD_TO_MY_LIST_BUTTON, "Cannot add not-first article to reading list", 10);
 
     }
 
@@ -110,7 +114,6 @@ abstract public class ArticlePageObject extends MainPageObject {
     {
         if (this.isElementPresent(OPTIONS_REMOVE_FROM_MY_LIST_BUTTON)){
             this.waitForElementAndClick(OPTIONS_REMOVE_FROM_MY_LIST_BUTTON,"Cannot click button to remove article from saved",5);
-            //this.waitForElementPresent(OPTIONS_ADD_TO_MY_LIST_BUTTON,"Cannot find button to add an article to saved list after removing it from this list befor",5);
         }
     }
 

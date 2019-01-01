@@ -89,9 +89,7 @@ public class MyListPageObject extends MainPageObject
             this.swipElementToLeft(article_xpath,"Cannot find saved article");
         } else {
             String remote_locator=getRemoveButtonByTitle (article_title);
-            System.out.println("remote_locator on swipeByArticleToDelete - " +remote_locator );
             this.waitForElementAndClick(remote_locator,"Cannot find and click for removing article from saved by locator="+remote_locator ,5);
-            //this.waitForAddButtonIsApearedOnWatchlist(article_title);
         }
 
         if (Platform.getInstance().isIOS()){

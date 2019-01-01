@@ -2,6 +2,7 @@ package Tests.New_Task;
 
 import lib.CoreTestCase;
 import lib.Factories.SearchPageObjectFactory;
+import lib.Platform;
 import lib.ui.SearchPageObject;
 import org.junit.Test;
 
