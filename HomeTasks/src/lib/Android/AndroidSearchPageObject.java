@@ -1,7 +1,7 @@
 package lib.Android;
 
-import io.appium.java_client.AppiumDriver;
 import lib.ui.SearchPageObject;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class AndroidSearchPageObject extends SearchPageObject
 {
@@ -16,7 +16,7 @@ public class AndroidSearchPageObject extends SearchPageObject
                 SEARCH_DEFAULT_START_TEXT="xpath://*[@text='Search and read the free encyclopedia in your language']";
    }
 
-    public AndroidSearchPageObject (AppiumDriver driver)
+    public AndroidSearchPageObject (RemoteWebDriver driver)
     {
         super(driver);
     }

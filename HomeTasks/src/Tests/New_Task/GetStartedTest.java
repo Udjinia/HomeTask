@@ -1,6 +1,7 @@
 package Tests.New_Task;
 
 import lib.CoreTestCase;
+import lib.Platform;
 import lib.ui.WelkomPageObject;
 import org.junit.Test;
 
@@ -9,8 +10,7 @@ public class GetStartedTest extends CoreTestCase
     @Test
     public void testPassThroughWelcom()
     {
-        if (this.Platform.isAndroid())
-        {
+        if ((Platform.getInstance().isAndroid()) || (Platform.getInstance().isMW())){
             return;
         }
 

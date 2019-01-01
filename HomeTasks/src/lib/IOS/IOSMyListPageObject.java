@@ -1,7 +1,7 @@
 package lib.IOS;
 
-import io.appium.java_client.AppiumDriver;
 import lib.ui.MyListPageObject;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class IOSMyListPageObject extends MyListPageObject
 {
@@ -9,7 +9,7 @@ public class IOSMyListPageObject extends MyListPageObject
         ARTICLE_BY_TITLE_TPL = "xpath://XCUIElementTypeLink[contains(@name,'{TITLE}')]";
     }
 
-    public IOSMyListPageObject (AppiumDriver driver)
+    public IOSMyListPageObject (RemoteWebDriver driver)
     {
         super(driver);
     }

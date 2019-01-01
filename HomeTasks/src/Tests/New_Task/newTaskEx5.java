@@ -4,10 +4,7 @@ import lib.Factories.ArticlePageObjectFactory;
 import lib.Factories.MyListPageObjectFactory;
 import lib.Factories.NavigationUIFactory;
 import lib.Factories.SearchPageObjectFactory;
-import lib.ui.ArticlePageObject;
-import lib.ui.MyListPageObject;
-import lib.ui.NavigationUI;
-import lib.ui.SearchPageObject;
+import lib.ui.*;
 import org.junit.Test;
 
 
@@ -21,7 +18,6 @@ public class newTaskEx5 extends CoreTestCase
             SECOND_SEARCH="Python",
             SECOND_ARTICLE_TITLE="Python (programming language)",
             SECOND_ARTICLE_DESCRIPTION="General-purpose, high-level programming language";
-
 
     @Test
     public void testSaveTwoArticleInFolder()

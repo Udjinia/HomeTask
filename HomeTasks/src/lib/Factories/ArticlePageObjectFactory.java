@@ -1,20 +1,21 @@
 package lib.Factories;
 
-import io.appium.java_client.AppiumDriver;
+
 import lib.Android.AndroidArticlePageObject;
 import lib.IOS.IOSArticlePageObject;
 import lib.Platform;
+import lib.mobile_web.MWArticlePageObject;
 import lib.ui.ArticlePageObject;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class ArticlePageObjectFactory
 {
-    public static ArticlePageObject get(AppiumDriver driver)
+    public static ArticlePageObject get(RemoteWebDriver driver)
     {
         if (Platform.getInstance().isAndroid()){
             return new AndroidArticlePageObject(driver);
-        }
-        else {
+        }else if (Platform.getInstance().isIOS()) {
             return new IOSArticlePageObject(driver);
-        }
+        } else {return new MWArticlePageObject(driver);}
     }
 }
